@@ -1,14 +1,14 @@
 site_name: My Docs
+site_url: "https://hupoboom.github.io/mymkdocs/"
+site_author: hupoboom
+site_description: "本网址主要用于记录学习和生活"
+
 nav:
-  - 命令: command.md
   - 主页: index.md
-  - 关于我 : about.md
-  - 教程:
-      - Python: Tutorial/Python.md
-  - 高等数学:
-      - 第一章: AdvancedMath/chapter1.md
-  - 人工智能:
-      - 机器学习: AI/machinelearing/the_first.md
-      - 神经网络: AI/neuralnetwork.md
+  - 人工智能: ai/index.md
+
+  - 考研408: 408/index.md
+
+
 theme:
   name: dracula
